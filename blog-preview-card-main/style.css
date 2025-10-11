@@ -79,3 +79,13 @@ body {
   font-weight: 800;
   font-size: 14px;
 }
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.title {
+  font-size: 1.3rem;
+}
+.description {
+  font-size: 0.9rem;
+}
