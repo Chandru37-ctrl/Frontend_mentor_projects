@@ -1,0 +1,95 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%); /* Stone 100 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 16px; /* Body Copy font size */
+}
+
+.recipe-container {
+    background-color: hsl(0, 0%, 100%); /* White */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-content {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%); /* Stone 900 */
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: 400; /* Young Serif weight */
+}
+
+.description {
+    color: hsl(30, 10%, 34%); /* Stone 600 */
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%); /* Brown 800 */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 700; /* Outfit weight */
+}
+
+ul, ol {
+    color: hsl(30, 10%, 34%); /* Stone 600 */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid hsl(30, 18%, 87%); /* Stone 150 */
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: 600; /* Outfit weight */
+    color: hsl(24, 5%, 18%); /* Stone 900 */
+}
+
+@media (min-width: 320px) {
+    .recipe-container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 375px) {
+    .recipe-container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .recipe-container {
+        width: 600px;
+    }
+}
