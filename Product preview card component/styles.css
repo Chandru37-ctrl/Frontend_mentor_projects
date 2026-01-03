@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
+.card-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.product-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.product-description {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.current-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+.original-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.add-to-cart-btn {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+
+.cart-icon {
+  width: 15px;
+  height: 16px;
+}
+
+@media (max-width: 640px) {
+  .card {
+    grid-template-columns: 1fr;
+    max-width: 343px;
+  }
+
+  .card-image {
+    min-height: 240px;
+    background-image: url(images/image-product-mobile.jpg);
+  }
+
+  .card-content {
+    padding: 1.5rem;
+  }
+
+  .product-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .product-description {
+    margin-bottom: 1.5rem;
+  }
+
+  .price-container {
+    margin-bottom: 1.25rem;
+  }
+}
