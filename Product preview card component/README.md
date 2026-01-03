@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/Chandru37-ctrl/product-preview-card)
-- Live Site URL: [Live Demo](https://chandru37-ctrl.github.io/Frontend_mentor_projects/product-preview-card)
+- Solution URL: [GitHub Repository](https://github.com/Chandru37-ctrl/Frontend_mentor_projects/Product%preview%card%component)
+- Live Site URL: [Live Demo](https://chandru37-ctrl.github.io/Frontend_mentor_projects/Product%preview%card%component)
 
 ## My process
 
@@ -160,11 +160,6 @@ product-preview-card/
 
 - **Desktop**: 1440px
 - **Mobile**: 375px
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 **Happy Coding!** 💻✨
