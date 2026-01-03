@@ -108,12 +108,12 @@ To view this project locally:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/product-preview-card.git
+https://github.com/Chandru37-ctrl/Frontend_mentor_projects.git
 ```
 
 2. Navigate to the project directory
 ```bash
-cd product-preview-card
+cd Product preview card
 ```
 
 3. Open `index.html` in your browser
