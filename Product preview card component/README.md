@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/Chandru37-ctrl/Frontend_mentor_projects/Product%preview%card%component)
-- Live Site URL: [Live Demo](https://chandru37-ctrl.github.io/Frontend_mentor_projects/Product%preview%card%component)
+- Solution URL: [GitHub Repository](https://github.com/Chandru37-ctrl/Frontend_mentor_projects/tree/main/Product%20preview%20card%20component)
+- Live Site URL: [Live Demo](https://chandru37-ctrl.github.io/Frontend_mentor_projects/Product%20preview%20card%20component/)
 
 ## My process
 
